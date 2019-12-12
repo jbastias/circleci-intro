@@ -8,6 +8,7 @@ jobs:
       - checkout
       - run: npm install
       - run: echo build step
+      - run: npm test
 
   test:
     docker:
